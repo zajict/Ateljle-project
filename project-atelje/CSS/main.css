@@ -1,0 +1,394 @@
+
+@font-face {
+    font-family: CinzelDecorative-Black;
+    src: url(../fonts/Cinzel_Decorative/CinzelDecorative-Black.ttf);
+}
+@font-face {
+    font-family: CinzelDecorative-Bold;
+    src: url(../fonts/Cinzel_Decorative/CinzelDecorative-Bold.ttf);
+}
+@font-face {
+    font-family: CinzelDecorative-Regular;
+    src: url(../fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: DarkerGrotesque-Black;
+    src: url(../fonts/Darker_Grotesque/DarkerGrotesque-Black.ttf);
+}
+@font-face {
+    font-family: DarkerGrotesque-Bold;
+    src: url(../fonts/Darker_Grotesque/DarkerGrotesque-Bold.ttf);
+}
+@font-face {
+    font-family: DarkerGrotesque-ExtraBold;
+    src: url(../fonts/Darker_Grotesque/DarkerGrotesque-ExtraBold.ttf);
+}
+@font-face {
+    font-family: DarkerGrotesque-Light;
+    src: url(../fonts/Darker_Grotesque/DarkerGrotesque-Light.ttf);
+}
+@font-face {
+    font-family: DarkerGrotesque-Medium;
+    src: url(../fonts/Darker_Grotesque/DarkerGrotesque-Medium.ttf);
+}
+@font-face {
+    font-family: DarkerGrotesque-Regular;
+    src: url(../fonts/Darker_Grotesque/DarkerGrotesque-Regular.ttf);
+}
+@font-face {
+    font-family: DarkerGrotesque-SemiBold;
+    src: url(../fonts/Darker_Grotesque/DarkerGrotesque-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: JuliusSansOne-Regular;
+    src: url(../fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.title-box-first {
+    margin-top: 8rem;
+}
+.title {
+    font-family: CinzelDecorative-Regular;
+    letter-spacing: 1rem;
+}
+.link {
+    color: rgb(187, 187, 187) !important;
+    font-family: DarkerGrotesque-Black;
+}
+.link:hover {
+    font-size: 1.1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #836a61 !important;
+}
+.navigation-bar {
+    margin: 0 auto;
+}
+ul {
+    margin: 0 auto;
+}
+
+.hero-images-box {
+    max-width: 100%;
+    height: 40rem !important;
+    background-image: url(../images/1.png);
+}
+
+.snip1211 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.snip1211 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1211 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 2em;
+  padding: 0;
+}
+.snip1211 a {
+  padding: 0 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+.snip1211 a:before {
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+  top: 25%;
+  bottom: 25%;
+  left: 0;
+  right: 0;
+  border-top: 3px solid #836a61;
+  border-bottom: 3px solid #836a61;
+}
+.snip1211 a:hover,
+.snip1211 .current a {
+  color: #ffffff;
+}
+.snip1211 a:hover:before,
+.snip1211 .current a:before {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+}
+
+.col2 {
+    margin: 0 auto;
+}
+.about-us {
+    margin: 0 auto;
+    margin-top: 9rem !important;
+}
+.about-us-title {
+    margin-bottom: 10px;
+    font-family: CinzelDecorative-Regular;
+    font-size: 30px;
+}
+.about-us-subtitle {
+    font-family: CinzelDecorative-Regular;
+}
+.text-main-about-us {
+    margin-top: 20px;  
+}
+.text-main-about-us::first-letter {
+    font-size: 4rem;
+    font-family: CinzelDecorative-Regular;
+}
+.about-us-text {
+    font-family: DarkerGrotesque-Medium;
+    font-size: 1.4rem;
+}
+.about-us-link {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.nasi-radovi{
+    margin-top: 15rem;
+}
+.slider {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 12rem;
+}
+
+.gallery-title {
+    font-family: CinzelDecorative-Black;
+}
+
+.img {
+    margin: 0 auto;
+    width: 25rem;
+}
+.button-gallery {
+    background-color: rgb(210, 201, 178) !important;
+}
+
+/* gallery */
+/* The grid: Four equal columns that floats next to each other */
+
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/* usluge */
+.portfolio-section {
+  padding: 50px 0;
+  background-color:  white;
+}
+.portfolio-section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+.portfolio-menu {
+  text-align: center;
+}
+.control {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 05s ease;
+  -moz-transition: all 05s ease;
+  -ms-transition: all 05s ease;
+  -o-transition: all 05s ease;
+  transition: all 0.5s ease;
+}
+.control:hover {
+  background: rgb(210, 201, 178);
+}
+.mixitup-control-active {
+  color: #fff;
+  background: rgb(210, 201, 178);
+}
+.fancybox-container button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.portfolio-item {
+  padding-top: 30px;
+}
+.pd {
+  padding: 0;
+  padding: 10px;
+}
+.pd img {
+  height: 180px;
+  transition: all 0.5s;
+}
+.portfolio-overlay {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  visibility: hidden;
+  transition: all 0.5s;
+  transform: scale(0);
+}
+.portfolio-overlay p,
+.portfolio-overlay a {
+  position: relative;
+  z-index: 4;
+}
+.portfolio-overlay::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-width: 0;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  transition: 50ms height ease 150ms;
+  z-index: 3;
+}
+.portfolio-overlay::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-width: 0;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  transition: 100ms width ease 200ms;
+  z-index: 3;
+}
+.portfolio-item:hover .portfolio-overlay::before {
+  width: 80%;
+  height: 80%;
+  border-top: 1px solid rgb(210, 201, 178);
+  border-right: 1px solid rgb(210, 201, 178);
+  transition: width 0.1s ease 0.3s, height 0.1s ease 0.5s;
+}
+.portfolio-item:hover .portfolio-overlay::after {
+  width: 80%;
+  height: 80%;
+  border-bottom: 1px solid rgb(210, 201, 178);
+  border-left: 1px solid rgb(210, 201, 178);
+  transition: width 0.1s ease 0.6s, height 0.1s ease 0.7s;
+}
+.portfolio-item li:hover .portfolio-overlay {
+  visibility: visible;
+  transform: scale(1);
+}
+.portfolio-overlay .category {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+.portfolio-overlay .magnify-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background: #50977f;
+  margin: 0 5px;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.25s;
+}
+.portfolio-overlay .magnify-icon:hover {
+  background: white;
+}
+.portfolio-overlay .magnify-icon p span i {
+  font-size: 15px;
+  color: #fff;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+/*******Responsive media query******/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+.nase-usluge-title {
+    font-size: 2rem;
+    font-family: CinzelDecorative-Bold;
+}
+
+#portfolio {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+
+}
+
+
+footer {
+    background: #000;
+    height: 5rem;
+    width: 100%;
+    margin-top: 20rem;
+}
+.footer-images {
+    padding-top: 20px;
+    margin-left: 5%;
+}
